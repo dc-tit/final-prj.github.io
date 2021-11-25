@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(to right, rgb(26, 29, 73), rgb(0, 10, 43));
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(41, 41, 75);
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    width: 97%;
+}
+.logo {
+    width: 55px;
+    height: auto;
+    margin: 10px 0px;
+    transition: 1s;
+}
+.logo:hover{
+    transform: rotate(360deg);
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+li a:hover {
+    padding: 16px 18px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(255, 243, 70);
+}
+
+video:-webkit-full-page-media {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+video {
+    object-fit: contain;
+    margin-left: 9.5%;
+    max-height: auto;
+    max-width: 80%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.filmimg {
+    margin-top: 8%;
+    margin-left: 27%;
+    margin-bottom: 3%;
+}
+
+img {
+    height: 350px;
+}
+
+.details {
+    margin-left: 10%;
+}
+
+.title {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.noid {
+    margin-left: 13%;
+    max-width: 75%;
+}
+
+.noid h1 {
+    color: rgb(240, 205, 50);
+}
+
+.noid p {
+    color: rgb(223, 223, 223);
+    font-size: 18px;
+}
+
+hr {
+    color: rgb(39, 32, 65);
+    margin-top: 3%;
+    width: 60%;
+}
+
+p {
+    color: rgb(221, 221, 221);
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    color: rgb(255, 216, 40);
+}
+footer p {
+    color: white;
+    font-size: 15px;
+    margin-top: 0;
+}
+footer h2 {
+    margin-bottom: 0;
+}
+.p1 {
+    margin-bottom: 0;
+}
+
+button {
+    margin: 3% 0;
+    padding: 10px 35px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: rgb(255, 255, 139);
+    transition: 0.3s;
+}
+
+button:hover {
+    padding: 10px 45px;
+}
